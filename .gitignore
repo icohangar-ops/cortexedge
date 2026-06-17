@@ -1,4 +1,17 @@
+# dbt
 target/
 dbt_packages/
 logs/
 package-lock.yml
+.user.yml
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+
+# Logs
+*.log

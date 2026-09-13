@@ -1,9 +1,11 @@
-# dbt
+# dbt (package-lock.yml is committed so installs stay reproducible)
 target/
 dbt_packages/
 logs/
-package-lock.yml
 .user.yml
+
+# Python / uv (lockfile is committed; local env is not)
+.venv/
 
 # Environment / secrets
 .env
